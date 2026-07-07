@@ -11,12 +11,7 @@ module full_adder_tb;
 reg a, b, cin;
 wire sum, cout;
 
-full_adder dut(.a(a), 
-		.b(b),
- 		.cin(cin),
- 		.sum(sum),
- 		.cout(cout)
-);
+	full_adder dut( .a(a), .b(b), .cin(cin), .sum(sum), .cout(cout) );
 
 initial begin
 $monitor ("Time=%0t a=%b b=%b c=%b sum=%b cout=%b", $time, a, b, cin, sum, cout);
