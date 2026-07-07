@@ -1,4 +1,6 @@
-/* module halfsubtractor_beh(
+//Using if - else statements
+
+module halfsubtractor_beh(
   input a, b,
   output reg difference, borrow
 );
@@ -26,8 +28,11 @@ module halfsubtractor_beh_tb;
 #10 a=1'b1; b=1'b1;
 #10 $finish;
 end
-endmodule  */
+endmodule
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Using Case Statements
 
 module  halfsubtractor_case(
     input a, b,
