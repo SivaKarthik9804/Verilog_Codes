@@ -1,4 +1,6 @@
-/*module fullsubtractor_beh(
+// Using  if - else statements 
+
+module fullsubtractor_beh(
     input a, b, bin,
     output reg difference, borrow
   );
@@ -33,7 +35,12 @@ module fullsubtractor_beh_tb;
 #10 a=1'b1; b=1'b1; bin=1'b1;
 #10 $finish;
 end
-endmodule */
+endmodule 
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Using Case statements
 
 module fullsubtractor_case(
     input a, b, bin,
