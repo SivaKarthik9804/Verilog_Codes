@@ -1,4 +1,6 @@
-/*module mux41(
+// Manual testbench for every possible condition
+
+module mux41(
 input i0, i1, i2, i3,
 input [1:0]s,
 output y );
@@ -132,8 +134,12 @@ s=2'b00;
 
 
 end
-endmodule */
+endmodule 
 
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Using for loop for TestBench
 module mux41(
     input [3:0] i,
     input [1:0] s,
