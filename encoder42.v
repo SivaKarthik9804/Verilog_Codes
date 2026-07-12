@@ -19,3 +19,5 @@ module encoder42_tb;
 #10 i[2]=4'b0100;
 #10 i[3]=4'b1000;
 #10 $finish;
+  end
+endmodule
